@@ -1,0 +1,34 @@
+.details{
+    background:#efefef;
+    margin:.2rem;
+}
+.details>.back{
+    height:1rem;
+    background:#efefef;
+    border-bottom:1px solid #ccc;
+    padding:.2rem;
+    margin-bottom: .2rem
+}
+.details>.back>span{
+    display: block;
+    height:.6rem;
+    width:.6rem;
+    background:rgba(0, 0, 0, .4);
+    font-size: .45rem;
+    border-radius: 50%;
+    line-height:.6rem;
+    text-align: center;
+    color:#fff;
+    font-weight: 900
+}
+.details>img{
+    height:9rem;
+    width:6.6rem;
+    margin:.2rem;
+    border-radius: .2rem;
+}
+.details>.back>.title{
+    font-size:20px;
+    margin-bottom: .2rem;
+}
+

@@ -1,0 +1,47 @@
+#footer>ul>li>.active{   
+  color: rgb(255, 63, 120);
+}
+
+#footer>ul>li>.abc{
+    background: yellow;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+#footer{
+    width: 100%;
+    height: 0.98rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid #333;
+    background: #fff;
+    
+}
+
+#footer>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer>ul>li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 0.98rem;
+    font-size:30px;
+    text-align: center;
+    line-height:0.98rem;
+    color: #999;
+    text-decoration: none;
+}

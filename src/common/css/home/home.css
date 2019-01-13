@@ -1,0 +1,12 @@
+#root,#root>div{
+    height: 100%;
+}
+.wrapper_home{
+    position: relative;
+    height: 100%;
+    top: 0rem;
+    overflow: hidden;
+} 
+.content_home{
+    height:180rem
+}

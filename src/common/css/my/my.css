@@ -1,0 +1,94 @@
+.my{
+	position: fixed;
+	height: 100%;
+	bottom: 0;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	
+	width: 100%;
+background:#fff;
+text-align: center;
+}
+.my>h1{
+	padding: 1.5rem  0 1rem 0 ;
+	display: block;
+
+}
+.my>h3{
+	width:6.3rem;
+	height: 1rem;
+	margin: 0 auto;
+	background: rgb(9, 187, 7);
+	line-height: 1rem;
+	border-radius: 1rem;
+	color: #fff;
+	font-weight: 900;
+}
+.my>h3 .anticon {
+	
+
+}
+.my>h3 a{
+	color: #fff;
+}
+.my>h3 span{
+
+	padding-left:0.2rem;
+
+}
+.box{
+	width:6.3rem;
+	height: 4rem;
+	margin: 1.5rem auto 0 auto;
+	display: block;
+
+}
+.box>span{
+	margin: 0 auto;
+	display: block;
+	width: .6rem;
+	height: 2px;
+	border-top:1px solid #777;
+}
+.box>h3{
+	font-size: .3rem;
+    font-weight: 400;
+    text-align: center;
+    color: #999;
+    margin: .8rem 0 .3rem;
+}
+.box>ul{
+	margin:0 auto;
+	padding:  0.5rem 0;
+	width: 6.3rem;
+	height:1.44rm;
+	display: flex;
+	justify-content: space-between;
+}
+.box>ul>li{
+   width:1.04rem;
+   height: 1.44rm;
+   float: left;
+   
+}
+.box>ul>a>li>p{
+	text-align: center;
+	width:1.04rem;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.box>ul>a>li>i{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 50%;
+	border: 2px solid #333;
+}
+.box>ul>a>li>i>svg{
+	margin-top:20px; 
+	width: 60px;
+	height: 60px;
+}

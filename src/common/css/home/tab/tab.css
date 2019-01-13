@@ -1,0 +1,86 @@
+
+.tabBox>.tab>.tabnav{
+    width:100%;
+    height:1.2rem;
+    border-top:.1rem solid #EFEFEF;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #efefef;
+    
+}
+.tabBox>.tab>.tabnav>li{
+    font-size:.36rem;
+    height:1rem;
+    line-height:1rem;
+    font-weight: 900;
+    text-align: center;
+}
+.tabBox>.tab>.tabnav>li>a{
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    height:.8rem;
+    width:.8rem;
+    font-family: Arial;
+    padding-bottom: 5px;
+}
+.tabBox>.tab>.tabnav>li>a.active{
+    border-bottom:4px solid #FF5777;
+    color:#000
+}
+
+
+.homeList{
+    width:100%;
+    height:10rem;
+    
+}
+.homeList>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.homeList>ul>li{
+    width: 100% !important;
+    height:6rem !important;
+    border-bottom: 1px solid #666;
+    margin-bottom:0 !important;
+}
+.homeList>ul>li>.homeListTop{
+    height:1.4rem;
+    width:100%;
+    padding:.2rem;
+}
+.homeList>ul>li>.homeListTop>img{
+    height:.8rem;
+    width:.8rem;
+    border-radius: 50%;
+    margin-right:.2rem;
+    float:left;
+
+}
+.homeList>ul>li>.homeListTop>.nameBox{
+    float:left;
+    width:80%;
+    height:.8rem;
+    text-align: left;
+}
+.homeList>ul>li>.homeListTop>.nameBox>.name{
+    font-size:34px;
+    font-weight: 900;
+    font-family: Arial;
+    margin-bottom: .1rem;
+}
+.homeList>ul>li>.homeListTop>.nameBox>.sign{
+    font-size:24px;
+}
+.homeList>ul>li>.homeListBottom{
+    height:4.2rem;
+    width:100%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.homeList>ul>li>.homeListBottom>img{
+    width:33%;
+    height:100%;
+}
